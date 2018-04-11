@@ -26,7 +26,7 @@ server.listen(3000, function () {
 
 // rotas REST
 server.get('/', restify.plugins.serveStatic({
-    directory: './dist',
+    directory: './dist', 
     file: 'index.html'
 }));
 
