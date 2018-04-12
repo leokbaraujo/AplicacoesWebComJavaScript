@@ -67,6 +67,11 @@ server.post('/geocode', (req, res, next) => {
                     });
 });
 
+server.get(/\/(.*)?.*/, restify.plugins.serveStatic({
+    directory: './dist',
+    default: 'index.html',
+}));
+
 server.listen(3000, function () {
   console.log('%s listening at %s', server.name, server.url);
 });
