@@ -1,0 +1,16 @@
+{
+  "name": "jogo-da-velha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonel Araujo",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^0.14.6",
+    "mssql": "^4.1.0",
+    "restify": "^6.3.4"
+  }
+}
